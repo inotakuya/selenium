@@ -27,7 +27,7 @@ public class SampleTestCase {
 
     @BeforeClass
     public static void setUpClass() throws IOException {
-        prop.load(new FileInputStream("src\\test\\resources\\selenium.properties"));
+        prop.load(new FileInputStream("src/test/resources/selenium.properties"));
         driver = new FirefoxDriver();
     }
 
