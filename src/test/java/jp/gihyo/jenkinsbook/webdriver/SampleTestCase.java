@@ -33,7 +33,7 @@ public class SampleTestCase {
 
     @AfterClass
     public static void tearDownClass() throws IOException {
-        driver.quit();
+        //driver.quit();
     }
 
     @Test
